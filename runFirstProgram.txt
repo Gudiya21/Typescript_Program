@@ -1,0 +1,22 @@
+Make and Run First Program
+
+1. Make a ts file
+2. Write some code
+3. JS file will be generated
+4. Make HTML file
+5. Add JS file in HTML file
+6. And on chrome
+
+
+For run the ts file use command 
+   Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
+   tsc app.ts 
+Or You can also use watch
+    tsc app.ts --watch
+
+If you want to make js file so we can run this command
+   tsc app.ts --outfile out.js
+
+
+To setup project of typescript run this command 
+   npx create-snowpack-app . --template @snowpack/app-template-blank-typescript --force
